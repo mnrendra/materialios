@@ -1,0 +1,32 @@
+.Icon {
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  cursor: pointer;
+  fill: rgba(0, 0, 0, 0.54);
+  margin: 8px 12px;
+}
+
+.Icon.FloatRight {
+  float: right;
+}
+
+.Dark-Content .Icon {
+  fill: rgba(0, 0, 0, 0.54);
+}
+
+.Light-Content .Icon {
+  fill: rgba(255, 255, 255, 0.7);
+}
+
+.Icon:hover {
+  fill: rgba(0, 0, 0, 0.87);
+}
+
+.Dark-Content .Icon:hover {
+  fill: rgba(0, 0, 0, 0.87);
+}
+
+.Light-Content .Icon:hover {
+  fill: rgba(255, 255, 255, 1);
+}
